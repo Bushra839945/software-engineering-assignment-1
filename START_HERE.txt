@@ -1,0 +1,62 @@
+ASSIGNMENT 1 - START HERE
+CSC3109 Software Engineering | SZABIST University Larkana
+
+This project follows the three tasks in your assignment PDF.
+It contains working code, examples, tests and demonstration videos.
+You still need your public repository URL and the three assigned testers.
+
+1. EXTRACT THE ZIP
+   Right-click the downloaded ZIP and choose Extract All.
+   Open the extracted assignment_1 folder. Do not run files from inside the ZIP.
+
+2. SET UP PYTHON (WINDOWS)
+   Install Python 3.12 from the official Python website if it is missing.
+   Include the Python launcher in the installation.
+   Double-click setup_windows.bat. Keep the internet connected while it installs.
+   This installs Flask, Streamlit and requests into a local .venv folder.
+   The supplied programs were tested with Python 3.12 on Linux; the .bat files
+   provide equivalent Windows commands but were not run on Windows here.
+
+3. RUN A TASK
+   Double-click start_windows.bat and type 1, 2 or 3.
+
+   TASK 1: A browser shows the student management interface.
+   If needed, open http://localhost:8501 yourself.
+   Add a student, update the department and delete the student.
+   The table refreshes after every successful change.
+
+   TASK 2: The launcher creates three keys on the first run.
+   Their private files are inside task2_api_keys/private_consumers.
+   Leave the API terminal open. Follow task2_api_keys/README.md for cURL tests.
+   An API is not a normal web page; use its /process endpoint with cURL.
+
+   TASK 3: Choose passwords for the employee and admin accounts.
+   Password typing is hidden. This is normal. Remember the passwords privately.
+   Leave the API terminal open. Follow task3_auth/README.md for cURL tests.
+
+   Press Ctrl+C in the running terminal to stop a task.
+
+4. UNDERSTAND AND DEMONSTRATE
+   Read EXPLAINED.md for simple explanations and practice questions.
+   Each task folder has demo.mp4 and DEMONSTRATION.md.
+   The supplied clips show actual local execution with fictional records.
+   Task 2 and 3 clips render real cURL commands/results as readable slides.
+   They are sample demonstrations, not evidence that your assigned testers ran
+   the API. Have those testers run it and record your own explanation if required.
+
+5. COMPLETE SUBMISSION
+   Open SUBMISSION_GUIDE.md and follow the public repository instructions.
+   Upload a fresh extracted copy of this package so it contains no local secrets.
+   Keep one folder per task and include each task's code and demonstration.
+   Create a text file named submission.txt containing your REAL public repo URL.
+   Submit that .txt file as requested by the assignment.
+
+IMPORTANT FOR TASK 2
+   Give one key privately to each assigned tester. Never publish a .key file,
+   api_keys.json, password, cookie file, database or .session_secret file.
+   .gitignore protects normal Git commits, not manual browser uploads.
+   See task2_api_keys/TESTER_INSTRUCTIONS.md for testing from another computer.
+
+OTHER COMPUTERS
+   On macOS/Linux, use the terminal setup commands in README.md.
+   If something fails, copy the error message without any private key or password.
